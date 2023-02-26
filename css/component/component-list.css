@@ -1,14 +1,11 @@
 @charset "UTF-8";
 
 .canvas {
-
     background: white;
-
 }
 
 .header-jc {
     justify-content: space-between;
-
 }
 
 .li-header-categ{
