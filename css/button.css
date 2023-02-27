@@ -57,3 +57,20 @@
     text-indent: -999px;
 }
 
+/* === detail ====================== */
+.btn-enter{
+    margin: auto;
+    top:auto;
+    left: auto;
+    width: 100%;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    /* PointColor --------------- */
+    /* background-color: rgb(0, 152, 116); */   /*초록*/
+    background-color: #FFCA4B;            /*감자*/
+    /* background-color: rgb(136, 176, 75); */  /*연두*/
+    /* background-color: #9b1b30; */            /*빨강*/
+}
+/* ======================================== */
