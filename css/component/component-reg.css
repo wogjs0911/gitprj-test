@@ -15,10 +15,15 @@
     align-items: center;
 }
 
+
 .select-box-list{
     margin-top: 105px;
 }
 
+
+.categ-eff:active{
+    background-color: #F0F2F3;
+}
 
 .m-t-button{
     margin-top: 114px;
@@ -41,7 +46,7 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.file-box{
+.file-box{ 
     margin-top: 35px;
 
 }
@@ -50,11 +55,14 @@
     height: 330px;
 }
 
+
 .input-content{
     width: 200px;
-    height: 250px;
-    margin: 0px 30px;
+    height: 80%;
+    margin-top: 10%;
 }
+
+
 
 
 

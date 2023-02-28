@@ -8,6 +8,10 @@
     justify-content: space-between;
 }
 
+.li-title{
+    padding-top: 0.1rem;
+}
+
 .li-header-categ{
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
@@ -21,6 +25,17 @@
     grid-column-gap: 2%;
     grid-template-areas:
         "pic ct ct . . ht"
+        "pic subj subj subj subj ht"
+        "pic mem dt dt dt ht"
+}
+
+.li-gr-2 {
+    grid-template-columns: repeat(6, minmax(60px, auto));
+    grid-template-rows: repeat(3, minmax(24px, auto));
+    grid-row-gap: 1%;
+    grid-column-gap: 2%;
+    grid-template-areas:
+        "pic ct ct ct ct ht"
         "pic subj subj subj subj ht"
         "pic mem dt dt dt ht"
 }
