@@ -10,8 +10,8 @@
     background-position: center;
     background-size: cover;
 
-    width: 200px;
-    height: 150px;
+    width: 137px;
+    height: 130px;
     margin: auto;
     text-indent: -999px;
 }
@@ -87,12 +87,16 @@
 
 .detail-paragraph{
     margin: 5px;
-    height: 120px;
+    height: 20vh;
     overflow-y: hidden;
 }
 
-.detail-paragraph{
+.de-pha::-webkit-scrollbar{
     width: 10px;
+    
+}
+
+.de-pha::-webkit-scrollbar-thumb{
     background-color: rgb(208, 206, 206);
 }
 
